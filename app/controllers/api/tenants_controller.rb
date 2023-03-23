@@ -1,4 +1,4 @@
-class TenantsController < ApplicationController
+class Api::TenantsController < ApplicationController
     rescue_from ActiveRecord::RecordNotFound, with: :tenant_not_found
 
     rescue_from ActiveRecord::RecordInvalid, with: :unprocessable_entity

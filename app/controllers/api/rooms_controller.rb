@@ -1,4 +1,4 @@
-class RoomsController < ApplicationController
+class Api::RoomsController < ApplicationController
     rescue_from ActiveRecord::RecordNotFound, with: :room_not_found
 
     rescue_from ActiveRecord::RecordInvalid, with: :unprocessable_entity

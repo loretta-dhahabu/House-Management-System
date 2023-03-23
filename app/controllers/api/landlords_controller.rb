@@ -1,4 +1,4 @@
-class LandlordsController < ApplicationController
+class Api::LandlordsController < ApplicationController
     rescue_from ActiveRecord::RecordNotFound, with: :landlord_not_found
 
     rescue_from ActiveRecord::RecordInvalid, with: :unprocessable_entity

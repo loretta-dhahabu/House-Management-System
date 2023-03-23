@@ -1,4 +1,4 @@
-class ApartmentsController < ApplicationController
+class Api::ApartmentsController < ApplicationController
     rescue_from ActiveRecord::RecordNotFound, with: :apartment_not_found
 
     rescue_from ActiveRecord::RecordInvalid, with: :unprocessable_entity

@@ -1,4 +1,4 @@
-class PaymentsController < ApplicationController
+class Api::PaymentsController < ApplicationController
     rescue_from ActiveRecord::RecordNotFound, with: :payment_not_found
 
     rescue_from ActiveRecord::RecordInvalid, with: :unprocessable_entity
