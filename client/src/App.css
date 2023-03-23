@@ -1,38 +1,228 @@
 .App {
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.navbar{
+  background-color: #0D1317 !important;
+}
+.navbar-brand{
+  font-style: italic !important;
+}
+span > .navbar-toggler-icon{
+  color: white !important;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.bg-success{
+  height: 130vh !important;
+  background-image: url("./images/image5.jpg") !important;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.home-form{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: #9AD5E7 */
+}
+/* .form-group{
+  gap: .5em !important;
+} */
+.signin-form{
+  height: 70%;
+  width: 50%;
+  align-items: center;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  background-color: #9AD5E7;
+  border-radius: .8em;
 }
 
-.App-link {
-  color: #61dafb;
+.signin-pg{
+  height: 100vh;
+  /* background-color: #9AD5E7; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.login-form{
+  height: 80%;
+  width: 60%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #87d2e9;
+  border-radius: .8em;
+}
+.login-form input{
+  width: 20em;
+  /* margin-top: .5em; */
+  /* margin-bottom: 1em; */
+  border: #0592CD 2px solid;
+  border-radius: .5em;
+
+}
+.signup-pg{
+  height: 100vh;
+  /* background-color: #9AD5E7; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.signup-form{
+  margin-bottom: -10em;
+  height: 120vh;
+  width: 60%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #87d2e9;
+  border-radius: .8em;
+}
+.signup-form input{
+  width: 20em;
+  /* margin-top: .5em; */
+  /* margin-bottom: 1em; */
+  border: #0592CD 2px solid;
+  border-radius: .5em;
+
+}
+.tosignup{
+  margin-top: -8em;
+}
+.tologin{
+  margin-top: 4em !important;
+}
+.housebody{
+  background-color: #9AD5E7;
+}
+
+.cards{
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+
+}
+/* .card{
+  border-radius: .2em !important;
+  margin-top: 1em;
+  align-items: center;
+  margin-right: 4em;
+  margin-bottom: 1em;
+  text-align: center;
+} */
+
+.restimages{
+  border-radius: 2em!important;
+  margin-top: 2em;
+  align-items: center;
+  /* margin-bottom: 1em; */
+  text-align: center;
+  width: 70%;
+  height: 75vh;
+  object-fit: cover;
+  box-shadow: 10px 10px 5px 2px #127782 !important;
+}
+.restcards{
+  display: flex;
+  border-radius: 1em !important;
+  /* margin-top: 1em; */
+  align-items: center;
+  margin-right: 4em;
+  margin-bottom: 1.5em;
+  text-align: center;
+  background-color: #87d2e9;
+}
+
+.maindash{
+background-color: #9AD5E7;
+}
+.typographs{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2em;
+}
+.dashcards{
+  height: 30vh;
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center;
+  align-items: center; */
+  border-radius: 1em;
+}
+.dashcard1{
+  background-color: #0592CD;
+}
+.dashcard2{
+  background-color: #2CC3C3;
+}
+.dashcard3{
+  background-color: #127782;
+}
+.houseicon{
+  position: relative;
+  float: right;
+  margin-right: 0;
+  margin-top: .2em;
+}
+.tenanticon{
+  position: relative;
+  float: right;
+  margin-right: 0;
+  margin-top: .2em;
+}
+.payicon{
+  position: relative;
+  float: right;
+  margin-right: 0;
+  margin-top: .2em;
+}
+.cardinfo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2em;
+}
+.toolbar{
+  background-color: #0D1317;
+}
+.menucomps{
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+   gap: 10em;
+}
+.signoutBtn{
+  position: relative;
+  float: right;
+  margin-top: .2em;
+  border: #0592CD 3px solid;
+  border-radius: .4em;
+  font-size: 18px;
+  width: 5em;
+}
+.signoutBtn:hover{
+  box-shadow: #2CC3C3 20px 20px 20px 20px;
+  border-radius: .5em;
+  border: none;
+  background-color: #87d2e9;
+}
+
+.printBtn{
+  float: right;
+  margin-right: 20em;
+  width: 5em;
+  height: 2.5em;
+}
+.payeditBtn{
+  width: 5em;
+  height: 2.5em;
 }
