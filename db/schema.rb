@@ -51,7 +51,7 @@ ActiveRecord::Schema.define(version: 2023_03_23_084943) do
     t.string "name"
     t.integer "age"
     t.string "gender"
-    t.string "contact_integer"
+    t.integer "contact"
     t.integer "room_id"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
