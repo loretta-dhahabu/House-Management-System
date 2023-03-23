@@ -31,6 +31,7 @@ function Tenants({ onAddingTenant }) {
     let result = await fetch("/api/tenants");
     result = await result.json();
     setTenants(result);
+    console.log(result);
   }
 
   function deleteTenant(id) {

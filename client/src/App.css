@@ -17,6 +17,11 @@ span > .navbar-toggler-icon{
   background-repeat: no-repeat;
   background-size: cover;
 }
+.bg-dark{
+  background-color: #0D1317;
+  color: #ffff;
+  padding-top: 0.1rem;
+}
 
 .home-form{
   height: 100vh;

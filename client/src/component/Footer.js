@@ -51,7 +51,7 @@ function Footer() {
         <hr className="mb-4 "></hr>
         <div className="row align-items-center">
           <div className="col-md-6 col-lg-7">
-            <p>Copyright @2022 All rights reserved</p>
+            <p>Copyright @2023 All rights reserved</p>
           </div>
           <div className="col-md-4 col-lg-4">
             <p>Terms & Services Privacy</p>

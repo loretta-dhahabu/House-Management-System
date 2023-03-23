@@ -1,3 +1,3 @@
 class TenantSerializer < ActiveModel::Serializer
-  attributes :id, :name, :age, :gender, :contact_integer, :room_id
+  attributes :id, :name, :age, :gender, :contact, :room_id
 end
